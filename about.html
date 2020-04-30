@@ -1,0 +1,55 @@
+<!Doctype html>
+<html lang="en">
+
+<head>
+
+    
+  
+    
+    <meta charset="utf-8">
+    
+    <title> Final Project </title>
+
+    <link href="css/about.css" rel="stylesheet">
+    
+    
+
+
+</head>
+
+<body>
+
+    <h1> Final Project</h1>
+
+    <div class="topnav" id="myTopnav">
+        <a href="index.html">home</a>
+        <a href="about.html" class="active">about</a>
+        <a href="work.html">work</a>
+        <a href="contact.html">contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div> <!-- close .topnav -->
+    
+    <div class="about">
+        <p>Variant magazine is a student run, print publication that focuses on all aspects of fasion and pop culture.</p>
+        <p>We strive to push the stereotypical boundaries of the fashion world, valuing diversity and creativity.</p>
+        <p>The two issues I took part of as head of publication design were "On the Streets", our fall 2019 issue, and "Dream", our Spring 2020 issue.</p>
+    </div> <!-- close .about -->
+
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+
+</body>
+    
+
+</html>
